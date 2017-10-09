@@ -30,21 +30,23 @@ Samples from the dataset
 
 The histogram representation shows the data distribution of the training data. Each bin represents one class (traffic sign) and how many samples are in that class. 
 
-![histogram](./images/histogram.png "histogram")
+![histogram](./images/histogram.JPG "histogram")
 
 ### Design and Test a Model Architecture
 
 #### Preprocessing
 
+![sample after grayscale conversion](./images/preprocess.JPG "preprocess")
+
 The traffic sign dataset is an RGB image, i.e it has 3 channels. Converting it to a single channel image (YCrCb image space) makes the model training faster and at the same time do not disregard most of the information embedded in the image. In addition to gray scale conversion, the image data is normalized.
 
-![samples after grayscale conversion](./images/histogram.png "histogram")
+![samples after grayscale conversion](./images/preprocess_set.JPG "preprocess_set")
 
 #### Model Architecture
 
 In this project, a Convolution Neural Network is built and trained to classify the traffic signs. The input to the network is a 32x32x1 image and the output is the probabilty of each of the 43 possible traffic signs.
 
-![layers](./images/histogram.png "histogram")
+![layers](./images/layer.JPG "layers")
 
 #### Approach and Challenges
 
@@ -104,7 +106,11 @@ The below chart shows the top 5 prediction probabilities for the new test images
 
 ### Visualizing the Neural Network 
 
+Input image
+
+![visualization1](./images/visualization1.JPG "input")
+
 The below figure shows the visual output of the trained networks feature maps in the convolution layer 1
 
-![feature_map](./images/histogram.png "histogram")
+![visualization](./images/visualization.JPG "featuremap")
 
