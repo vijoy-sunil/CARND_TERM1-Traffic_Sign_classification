@@ -94,15 +94,15 @@ The model was able to correctly predict all 5 of the 5 traffic signs, which give
 
 The below chart shows the top 5 prediction probabilities for the new test images
 
-![feature_map](./images/histogram.png "histogram")
+![softmax1](./images/caution.JPG "softmax1")
 
-![feature_map](./images/histogram.png "histogram")
+![softmax2](./images/60.JPG "softmax2")
 
-![feature_map](./images/histogram.png "histogram")
+![softmax3](./images/30.JPG "softmax3")
 
-![feature_map](./images/histogram.png "histogram")
+![softmax4](./images/right.JPG "softmax4")
 
-![feature_map](./images/histogram.png "histogram")
+![softmax5](./images/left.JPG "softmax5")
 
 ### Visualizing the Neural Network 
 
