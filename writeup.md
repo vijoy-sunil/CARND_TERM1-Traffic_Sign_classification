@@ -26,7 +26,7 @@ The goals / steps of this project are the following:
 
 Samples from the dataset
 
-![original training images](./images/training_data_raw.jpg "original training images")
+![original training images](./images/signs.JPG "original training images")
 
 The histogram representation shows the data distribution of the training data. Each bin represents one class (traffic sign) and how many samples are in that class. 
 
