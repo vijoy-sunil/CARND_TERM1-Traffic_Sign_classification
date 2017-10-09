@@ -37,5 +37,5 @@ cd CarND-Traffic-Sign-Classifier-Project
 jupyter notebook Traffic_Sign_Classifier.ipynb
 ```
 
-
+### REFER WRITEUP.md file FOR MORE INFORMATION ON THE MODEL ARCHITECTURE
 
