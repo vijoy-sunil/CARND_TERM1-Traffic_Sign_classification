@@ -74,25 +74,15 @@ The validation accuracy did oscillate a bit near the end of 25 epochs which is a
 
 Downloaded 5 commonly seen traffic sign images, that were not used while training the model, from the web and tested the model on them. 
 
-"General caution"
+"General caution"       ![new_signs1](./new_test_set/18.png "18")     
 
-![new_signs1](./new_test_set/18.png "18")     
+"Speed limit 30"        ![new_signs2](./new_test_set/3.png "3")       
 
-"Speed limit 30"
+"Speed limit 60"        ![new_signs3](./new_test_set/18.png "18")       
 
-![new_signs2](./new_test_set/3.png "3")       
+"Keep right"            ![new_signs4](./new_test_set/38.png "38")       
 
-"Speed limit 60"
-
-![new_signs3](./new_test_set/18.png "18")       
-
-"Keep right"
-
-![new_signs4](./new_test_set/38.png "38")       
-
-"Turn left ahead"
-
-![new_signs5](./new_test_set/34.png "34")         
+"Turn left ahead"       ![new_signs5](./new_test_set/34.png "34")         
 
 #### Performance on New Images
 
