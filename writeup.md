@@ -80,11 +80,11 @@ Downloaded 5 commonly seen traffic sign images, that were not used while trainin
 
 "Speed limit 30"
 
-![new_signs2](./new_test_set/30.png "30")       
+![new_signs2](./new_test_set/3.png "3")       
 
 "Speed limit 60"
 
-![new_signs3](./new_test_set/60.png "60")       
+![new_signs3](./new_test_set/18.png "18")       
 
 "Keep right"
 
