@@ -40,6 +40,8 @@ The histogram representation shows the data distribution of the training data. E
 
 The traffic sign dataset is an RGB image, i.e it has 3 channels. Converting it to a single channel image (YCrCb image space) makes the model training faster and at the same time do not disregard most of the information embedded in the image. In addition to gray scale conversion, the image data is normalized.
 
+Training set after Preprocessing stage:
+
 ![samples after grayscale conversion](./images/preprocess_set.JPG "preprocess_set")
 
 #### Model Architecture
@@ -72,9 +74,7 @@ The validation accuracy did oscillate a bit near the end of 25 epochs which is a
 
 Downloaded 5 commonly seen traffic sign images, that were not used while training the model, from the web and tested the model on them. 
 
-"General caution"
-"Speed limit 30", "Speed limit 60"
-"Keep right". "Turn left ahead"
+"General caution", "Speed limit 30", "Speed limit 60", "Keep right", "Turn left ahead"
 
 ![new_signs](./images/histogram.png "histogram")
 
@@ -110,7 +110,7 @@ Input image
 
 ![visualization1](./images/visualization1.JPG "input")
 
-The below figure shows the visual output of the trained networks feature maps in the convolution layer 1
+The below figure shows the visual output of the trained networks feature maps in the convolution layer 1 which has a depth of 48.
 
 ![visualization](./images/visualization.JPG "featuremap")
 
