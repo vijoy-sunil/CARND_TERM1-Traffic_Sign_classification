@@ -76,7 +76,7 @@ Downloaded 5 commonly seen traffic sign images, that were not used while trainin
 
 "General caution", "Speed limit 30", "Speed limit 60", "Keep right", "Turn left ahead"
 
-![new_signs1](./new_test_set/1.png "1") ![new_signs1](./new_test_set/1.png "1")
+![new_signs1](./new_test_set/18.png "18")       ![new_signs2](./new_test_set/30.png "30")       ![new_signs3](./new_test_set/60.png "60")       ![new_signs4](./new_test_set/38.png "38")       ![new_signs5](./new_test_set/34.png "34")         
 
 #### Performance on New Images
 
